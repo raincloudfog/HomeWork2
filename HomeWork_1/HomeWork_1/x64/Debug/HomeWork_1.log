@@ -1,0 +1,21 @@
+﻿  Main.cpp
+C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13): warning C4244: '초기화 중': 'T'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13): warning C4244:         with
+C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13): warning C4244:         [
+C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13): warning C4244:             T=double
+C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13): warning C4244:         ]
+  (소스 파일 'Main.cpp'을(를) 컴파일하는 중)
+      C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(116,13):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(221,28):
+          컴파일되는 클래스 템플릿 인스턴스화 'CH_2_1::BasicSort<double>'에 대한 참조를 확인하세요.
+          C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(114,8):
+          클래스 템플릿 멤버 함수 'void CH_2_1::BasicSort<double>::changenum(T &,T &)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=double
+          ]
+              C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\HomeWork_1\CH_2_1_2.h(265,16):
+              'CH_2_1::Double_Sort::Sort'에서 'CH_2_1::BasicSort<double>::changenum'에 대한 첫 번째 참조를 확인하세요.
+  
+  HomeWork_1.vcxproj -> C:\Users\qordl\Documents\GitHub\HomeWork_1\HomeWork_1\x64\Debug\HomeWork_1.exe
